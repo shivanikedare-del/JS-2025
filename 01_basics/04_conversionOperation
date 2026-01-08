@@ -1,0 +1,31 @@
+let score = undefined
+
+console.log(typeof score);
+console.log(typeof(score));
+
+let convValue = Number(score)
+
+console.log(typeof convValue);
+console.log(convValue);
+
+// number is easily converted
+// number with characters or undefined value will give NaN (Not a Number) but data type still shows 'number' 
+// boolean values will give type 1 or 0
+
+
+let isLoggedIn = "anything"
+let booleanLoggedIn = Boolean(isLoggedIn)
+
+console.log(booleanLoggedIn);
+
+// 1 => true, 0 => false
+// "" => false
+// "anything" => true
+
+
+let aValue = 678
+let newString = String(aValue)
+
+console.log(typeof aValue);
+console.log(newString);
+console.log(typeof newString);
