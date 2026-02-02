@@ -35,3 +35,22 @@ console.log(Object.entries(user));
 console.log(Object.values(user));
 
 console.log(Object.hasOwnProperty('name'));
+
+
+const Course = {
+    coursename : "JS Hindi",
+    price : "1049",
+    instructor : "HC"
+}
+
+const {coursename: name} = Course
+
+console.log(name);
+
+// json
+// {
+//     "name": "some name",
+//     "start-date": "2nd Feb",
+//     "end-date": "2nd March"
+// }
+
