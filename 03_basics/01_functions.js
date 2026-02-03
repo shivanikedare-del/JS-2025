@@ -32,3 +32,11 @@ function handleObject(anyobject){
     return `${anyobject.product} will cost ${anyobject.price}`
 }
 console.log(handleObject(productDetails));
+
+const newArray =  [3,7,1,9]
+
+function fetchNumber(getArray){
+    return getArray[1]
+}
+console.log(fetchNumber(newArray));
+console.log(fetchNumber([66,33,88]));
