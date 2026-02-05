@@ -8,7 +8,7 @@ console.log(addTwo(1,9))
 
 
 function username(name){
-    if(!name){
+    if(!name){              // name === undefined
         console.log(`Enter a valid username`);
         return
     }
